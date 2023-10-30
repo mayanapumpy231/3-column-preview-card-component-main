@@ -1,0 +1,86 @@
+.left {
+  background-color: hsl(31, 77%, 52%);
+  width: 40%;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.left,
+.center,
+.right {
+  padding: 4rem;
+  font-size: 15px;
+
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1rem;
+}
+
+.container {
+  padding-top: 4rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.center {
+  background-color: hsl(184, 100%, 22%);
+  width: 40%;
+  color: white;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  border: none;
+  font-family: 'Poppins',
+    sans-serif;
+  margin-top: 1rem;
+  color: white;
+
+}
+
+.right {
+  background-color: hsl(179, 100%, 13%);
+  width: 40%;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid white;
+}
+
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 1px solid white;
+}
+
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 1px solid white;
+}
